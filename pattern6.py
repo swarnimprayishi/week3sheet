@@ -1,8 +1,12 @@
-n = 5
-for i in range(n):
-    space = n - i - 1
-    print('*' + ' ' * space + '*')
-
+rows = 5
+for i in range(rows):
+    print('*', end=' ')
+    for j in range(rows - i):
+        print('_', end=' ')
+    if i != rows - 1:
+        print('*')
+    else:
+        print()
 
 
 #*_ _ _ _ _*        
@@ -11,3 +15,4 @@ for i in range(n):
 #*_ _*    
 #*_*               
            
+
