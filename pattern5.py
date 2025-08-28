@@ -1,7 +1,6 @@
-n = 5
-space = 3  
-for i in range(n):
-    print('*' + ' ' * space + '*')
+rows = 5
+for i in range(rows):
+    print('* _ _ _ *')
 
 
 
@@ -9,4 +8,5 @@ for i in range(n):
 #*_ _ _* 
 #*_ _ _* 
 #*_ _ _* 
+
 #*_ _ _* 
