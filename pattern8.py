@@ -1,9 +1,10 @@
-
-n = 4
-for i in range(n):
-    space = ' ' * i
-    star = '* ' * (n - i)
-    print(space + star)
+rows = 5
+for i in range(rows):
+    for j in range(i):
+        print('_', end=' ')
+    for k in range(rows - i):
+        print('*', end=' ')
+    print()  
 
 
 
@@ -11,4 +12,5 @@ for i in range(n):
 #_  * * * *        
 #_ _ * * *         
 #_ _ _*  *        
+
 #_ _ _ _* 
