@@ -1,9 +1,12 @@
-for i in range(1, 6):  
-    print("* " * i)
+row = 5
+for i in range(1, row + 1):
+    l = '* ' * i
+    print(l)
 
 
 #*  
 #* * 
 #* * *  
 #* * * *  
+
 #* * * * * 
