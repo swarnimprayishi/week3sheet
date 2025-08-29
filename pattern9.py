@@ -1,9 +1,8 @@
-n = 5  
+n=5
 for i in range(n):
-    star = n - i
-    space = i * 2
-
-    print('*' * star + ' ' * space + '*' * star)
+    print("*" * (n-i) ,end="")
+    print(" " * (i*2) , end="")  
+    print("*" * (n-i) )
 
 
 
@@ -11,4 +10,5 @@ for i in range(n):
 #****     **** 
 #***           *** 
 #**                ** 
+
 #*                     * 
